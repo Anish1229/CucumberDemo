@@ -8,7 +8,7 @@ import io.cucumber.junit.Cucumber;
 @CucumberOptions(
 		features = "src/test/java/feature/login.feature",
 		glue ="stepDefinations",
-		plugin = {"pretty","json:target/cucumber.json","html:target/cucumber.html"
+		plugin = {"pretty","json:target/cucumber/cucumber.json","html:target/cucumber/cucumber.html"
 				}
 		)
 		
